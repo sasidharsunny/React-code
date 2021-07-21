@@ -1,0 +1,82 @@
+.main {
+    margin-top: 10px;
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    background-color:rgb(220, 235, 248);
+    text-align: right;
+}
+
+.main h1 {
+    font-size: 45px;
+    font-family: 'Helvetica', serif;
+}
+
+label{
+    text-align: left;
+    font-size: 16px;  
+}
+
+select{
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin: 6px 0;
+    border: none;
+    border-left: 2px solid#c1c1c2;
+    border-right: 2px solid#c1c1c2;
+    border-top: 2px solid#c1c1c2;
+    border-bottom: 2px solid#c1c1c2;
+}
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 17px;
+    padding: 8px 10px;
+    margin: 6px 0;
+    border: none;
+    border-left: 1px solid#c1c1c2;
+    border-right: 2px solid#c1c1c2;
+    border-top: 2px solid#c1c1c2;
+    border-bottom: 2px solid#c1c1c2;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width:100%;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.job-details{
+    background-color:#075cb8;
+    padding: 10px;
+    color: white;
+}
+.job-form{
+    text-align: center;
+    background-color:rgb(220, 235, 248);
+}
+.container{
+    padding-top: 20px;
+}
+.job-details h6{
+    
+    color:#0df3a9
+}
+.job-form h2{
+    color: #212529;
+}
+
+
+.training-details{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}

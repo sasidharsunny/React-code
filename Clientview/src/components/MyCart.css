@@ -1,0 +1,71 @@
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .single-recent-cap {
+    margin: 5px;
+  }
+
+  .recent-area .single-recent-cap .recent-img {
+    overflow: hidden
+  }
+
+  .recent-area .single-recent-cap .recent-img img {
+    width: 100%;
+    transform: scale(1);
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -ms-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s
+  }
+
+  .recent-area .single-recent-cap .recent-cap {
+    padding: 20px 30px 20px 30px;
+    background: #fcfdff
+  }
+
+  .recent-area .single-recent-cap .recent-cap span {
+    color: #ff656a;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block
+  }
+
+  .recent-area .single-recent-cap .recent-cap h4 a {
+    color: #191d34;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500px
+  }
+
+  .recent-area .single-recent-cap .recent-cap h4 a:hover {
+    color: #ff656a
+  }
+
+  .recent-area .single-recent-cap .recent-cap p {
+    color: #aebccb;
+    font-size: 14px
+  }
+
+  .single-recent-cap:hover .recent-img img {
+    transform: scale(1.1)
+  }
+  .cart-img{
+    width: 80px !important;
+    height: 60px !important;
+  }
+  .coupon-sec {
+    background: #FFF;
+    padding: 30px;
+}
+.cart-sec{
+  background:#fff0e5;
+  padding: 30px;
+}
+
+.border{
+border:1px solid #CCC;
+}

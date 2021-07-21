@@ -1,0 +1,182 @@
+.nav-pills-custom .nav-link {
+    color: black !important;
+    background: #449bf9;
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #ffffff;
+    background: #fa6c3e;
+}
+
+
+
+
+.internbanner {
+    background: linear-gradient(to bottom,#e0f8ff 0,#fff0e5 100%);
+    padding: 30px 0px 100px 0px;
+}
+
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+.nav-pills-custom .nav-link::before {
+    
+    display: block;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #fa6c3e;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+
+
+
+.jobs img {
+    width: 70px;
+}
+.tab-content h4{
+margin-bottom:10px !important;
+}
+.tab-content p{
+margin-bottom:0px !important;
+}
+.rounded-pill {
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.team-member-sm {
+    width: 32px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.team-member {
+    position: relative;
+    width: 30px;
+    white-space: nowrap;
+    border-radius: 1000px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+.order-list li img {
+    border: 2px solid #ffffff;
+    box-shadow: 4px 3px 6px 0 rgb(0 0 0 / 20%);
+}
+.team-member img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 1000px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.order-list li+li {
+    margin-left: -14px;
+    background: transparent;
+}
+.team-member-sm {
+    width: 32px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.order-list li .badge {
+    background: rgba(228,222,222,0.8);
+    color: #6b6f82;
+    margin-bottom: 6px;
+}
+.badge.badge-primary {
+    background-color: #6777ef;
+}
+.badge {
+    vertical-align: middle;
+    padding: 7px 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.avatar {
+    background: #6777ef;
+    border-radius: 50%;
+    color: #e3eaef;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    line-height: 1.28;
+    height: 45px;
+    width: 45px;
+}
+.avatar.avatar-sm {
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+}
+.topcard {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px -1px 1px rgb(0 0 0 / 8%), 1px 0px 1px rgb(0 0 0 / 8%), -1px 0px 1px rgb(0 0 0 / 8%), 0px 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: 0px -1px 1px rgb(0 0 0 / 8%), 1px 0px 1px rgb(0 0 0 / 8%), -1px 0px 1px rgb(0 0 0 / 8%), 0px 1px 1px rgb(0 0 0 / 8%);
+	padding:10px 30px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #eceff1!important;
+  }
+  button, input, optgroup, select, textarea {
+    margin: 7px !important;
+    
+  }
+
+
+ /* image size */
+  .internimgurl {
+    height: auto;
+    width: 100% !important;
+    /* margin-left: -10px; */
+}
+
+
+
+

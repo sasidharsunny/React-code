@@ -1,0 +1,268 @@
+/* 
+.card {
+    width: 100%;
+    padding: 30px
+} */
+
+.form {
+    padding: 20px
+}
+
+.form-control {
+    height: 50px;
+    background-color: #eee
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f50057;
+    outline: 0;
+    box-shadow: none;
+    background-color: #eee;
+    font-Family:"abadi"
+}
+
+.inputbox {
+    margin-bottom: 15px
+}
+.register {
+    width: 100%;
+    height: auto;
+    background-color: #f50057;
+    border-color: #f50057;
+}
+
+
+.login {
+    color: #f50057;
+    text-decoration: none;
+    font-Family:"abadi"
+}
+
+.login:hover {
+    color: #f50057;
+    text-decoration: none
+}
+
+.form-check-input:checked {
+    background-color: #f50057;
+    border-color: #f50057
+}
+
+
+
+
+
+
+
+
+
+
+.registration-page {
+    padding: 30px 0px;
+    
+}
+.registration-page .form-control {
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    
+    background-clip: padding-box;
+
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.registration-page h1{
+    color: #004182;
+    font-weight: 900;
+    text-align: center;
+}
+.registration-page h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:"black"
+}
+.bg-light{
+    background: #f1ece5;
+}
+.registration{
+    background: #fff;
+    padding: 30px;
+}
+.registration h2{
+    font-size: 25px;
+}
+.registration label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+.page--is-mercado-theme-enabled .join-form__form-body-submit-button {
+    background-color: #0a66c2;
+    height: 48px;
+    border-radius: 24px;
+}
+.join-form__form-body-submit-button {
+    background-color: #0073b1;
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+    height: 50px;
+    line-height: 40px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    font-weight: 500;
+    padding: 0 16px 0 16px;
+    width: 100%;
+}
+
+/* Registration 2  */
+
+
+body {
+    background-color: #F50057
+}
+
+.container {
+    height: 100%;
+}
+h1{
+    color: #000;
+}
+
+/* .card {
+    width: 100%;
+    padding: 30px
+} */
+
+.form {
+    padding: 20px
+}
+
+.form-control {
+    height: 50px;
+    background-color: #eee
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f50057;
+    outline: 0;
+    box-shadow: none;
+    background-color: #eee
+}
+
+.inputbox {
+    margin-bottom: 15px
+}
+
+
+
+
+.login {
+    color: #f50057;
+    text-decoration: none
+}
+
+.login:hover {
+    color: #f50057;
+    text-decoration: none
+}
+
+.form-check-input:checked {
+    background-color: #f50057;
+    border-color: #f50057
+}
+.blueline{
+    width:140px;
+    height:3px;
+    
+    background-color:blue;
+    border:none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .account{
+      text-align: center;
+
+  }
+
+  /*******navtoggle**/
+
+  .navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+
+.register-page .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: transparent;
+        border-radius: .25rem;
+        box-shadow: none !important;
+}
+.registration {
+    background: transparent;
+    padding: 30px;
+}
+.register-page img {
+    width: 100% !important;
+    padding-top: 50px !important;
+    float: left;
+}
+
+.makeStyles-Grid-1 {
+    color: white;
+    padding: 50px;
+    margin-top: -30px!important;
+    background-color: #106695 !important;
+}

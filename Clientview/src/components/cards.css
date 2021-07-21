@@ -1,0 +1,48 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif
+}
+
+h3 {
+    text-align: center;
+  color: black  !important;
+    
+}
+
+.blueline{
+    width:160px;
+    height:3px;
+    
+    background-color:blue;
+    border:none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+
+.box {
+    padding: 60px 0px
+}
+
+.box-part {
+    background: #ffffff;
+    padding: 30px 5px;
+    margin: 30px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px
+}
+
+
+
+
+
+
+.fa {
+    color: #00BFFF
+}

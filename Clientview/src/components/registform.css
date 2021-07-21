@@ -1,0 +1,88 @@
+.bg {
+    background-color: #e0f8ff!important;
+	}
+	.bg1{
+	background:#fff0e5;
+	}
+	.navbar-dark .navbar-brand {
+    color: #004c8e!important;
+    font-size: 25px !important;
+    font-weight: bold;
+	}
+	hr {
+		margin-top: 0;
+		margin-bottom: 0;
+		border: 0;
+		border-top: 1px solid rgba(0,0,0,.1);
+	}
+	.register{
+    background: linear-gradient(to bottom,#e0f8ff 0,#fff0e5 100%);
+    
+	}
+	#login-box {
+    border: 1px solid aliceblue;
+    background-color: #ffffff;
+	padding:20px;
+}
+
+.border-style{
+    border-left: 10px solid #fec500;
+}
+
+.footer{
+padding:15px 0px;
+    background:#0e425f !important;
+	
+}
+.footer p {
+    padding-bottom: 0px;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+
+/*---- Hire -----*/
+.hiring{
+padding:50px 0px;
+}
+.btn-outline-primary{
+
+    background-color: #2D4988; color: white;}
+
+
+.hiring img {
+    border-radius: 50%;
+    height: 250px;
+}
+.percentage{
+font-size:50px;
+color:green;
+margin-right:15px;
+}
+	p {
+    font-size: 18px;
+	}
+.media p {
+    font-size: 18px;
+    padding-top: 10px;
+	    color: green;
+}
+.how-works img {
+    width: 475px;
+    height: 300px;
+    display: block;
+	box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+      
+  }
+  
